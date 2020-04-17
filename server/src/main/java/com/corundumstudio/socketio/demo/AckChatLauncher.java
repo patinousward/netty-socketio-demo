@@ -9,7 +9,11 @@ import com.corundumstudio.socketio.VoidAckCallback;
 import com.corundumstudio.socketio.listener.DataListener;
 
 public class AckChatLauncher {
-
+    /**
+     * 发送信息给server，server给出ack，屏幕上并未显示内容
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 
         Configuration config = new Configuration();

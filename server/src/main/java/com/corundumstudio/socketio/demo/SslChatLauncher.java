@@ -9,7 +9,11 @@ import com.corundumstudio.socketio.SocketIOServer;
 import com.corundumstudio.socketio.listener.DataListener;
 
 public class SslChatLauncher {
-
+    /**
+     * todo
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 
         Configuration config = new Configuration();

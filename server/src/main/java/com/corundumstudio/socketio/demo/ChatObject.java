@@ -1,6 +1,6 @@
 package com.corundumstudio.socketio.demo;
 
-public class ChatObject {
+public class ChatObject { //实体类
 
     private String userName;
     private String message;

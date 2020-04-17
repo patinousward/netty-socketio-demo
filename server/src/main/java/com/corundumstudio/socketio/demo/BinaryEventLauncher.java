@@ -10,7 +10,12 @@ import com.corundumstudio.socketio.Transport;
 import com.corundumstudio.socketio.listener.DataListener;
 
 public class BinaryEventLauncher {
-
+    /**
+     * 上传文件的
+     * @param args
+     * @throws InterruptedException
+     * @throws UnsupportedEncodingException
+     */
     public static void main(String[] args) throws InterruptedException, UnsupportedEncodingException {
 
         Configuration config = new Configuration();

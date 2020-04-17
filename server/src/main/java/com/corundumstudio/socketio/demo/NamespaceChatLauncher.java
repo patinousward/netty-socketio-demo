@@ -4,7 +4,11 @@ import com.corundumstudio.socketio.listener.*;
 import com.corundumstudio.socketio.*;
 
 public class NamespaceChatLauncher {
-
+    /**
+     * 一个页面上2个聊天室，应该是使用namespace来区别
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 
         Configuration config = new Configuration();

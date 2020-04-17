@@ -4,7 +4,14 @@ import com.corundumstudio.socketio.listener.*;
 import com.corundumstudio.socketio.*;
 
 public class ChatLauncher {
-
+    /**
+     * 普通聊天室，直接本地运行main方法即可
+     * 或者 mvn exec:java 就会运行pom中默认的类，也就是本类
+     * 此命令可以运行别的main程序：
+     * mvn exec:java -Dmain.class=com.corundumstudio.socketio.demo.SslChatLauncher
+     * @param args
+     * @throws InterruptedException
+     */
     public static void main(String[] args) throws InterruptedException {
 
         Configuration config = new Configuration();
