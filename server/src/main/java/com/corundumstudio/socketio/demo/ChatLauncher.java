@@ -34,4 +34,12 @@ public class ChatLauncher {
         server.stop();
     }
 
+    /**
+     * 初始化连接ws：ws://localhost:9092/socket.io/?EIO=3&transport=websocket&sid=c22c8156-d987-482c-a700-46e0f361affc
+     * 发送消息的时候["chatevent", {userName: "user98", message: "dd"}] 数据结构
+     * 开始连接的时候发送2probe，response 3probe ，再次发送 5表示 连接ok
+     * 期间有用数字维持心跳ping 2 pong 3
+     *
+     */
+
 }
