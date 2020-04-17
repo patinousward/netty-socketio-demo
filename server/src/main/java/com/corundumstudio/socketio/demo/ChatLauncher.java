@@ -40,6 +40,9 @@ public class ChatLauncher {
      * 开始连接的时候发送2probe，response 3probe ，再次发送 5表示 连接ok
      * 期间有用数字维持心跳ping 2 pong 3
      *
+     * http://localhost:9092/socket.io/?EIO=3&transport=polling&t=1587114609931-3
+     * 降级方案。。前台去拉取数据
+     *
      */
 
 }
